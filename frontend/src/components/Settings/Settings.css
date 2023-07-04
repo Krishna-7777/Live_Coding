@@ -1,0 +1,37 @@
+.setting {
+    position: fixed;
+    left: 100px;
+}
+
+.heading {
+    color: var(--gray-900, #101828);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 40px 20px;
+}
+
+.navItems div{
+    display: flex;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding: 2% 4%;
+    width: 282px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.navItems{
+    padding: 0px 20px;
+}
+
+.navItems svg{
+    margin-right: 12px;
+}
+
+.navItems div:nth-child(4){
+    background-color: #F9FAFB;
+}
+
