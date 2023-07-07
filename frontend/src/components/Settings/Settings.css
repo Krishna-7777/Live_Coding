@@ -1,6 +1,8 @@
 .setting {
     position: fixed;
     left: 100px;
+    border-right: 1px solid #D0D5DD;
+    min-height: 100vh;
 }
 
 .heading {
