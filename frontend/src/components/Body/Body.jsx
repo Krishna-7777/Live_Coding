@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Body.css"
+import MTable from '../Table/MTable'
 
 function Body() {
   return (
@@ -14,6 +15,7 @@ function Body() {
 </svg>
  Invite People</button>
         </div>
+        <MTable />
     </div>
   )
 }
